@@ -1,0 +1,173 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="./register.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+
+
+
+
+<body>
+
+    
+
+    <nav>
+        <div class="mainName">
+          <p>Library Management System</p>
+        </div>
+  
+        <div class="navContent">
+          <div>
+          <a href="./index.html">
+            <p>Home</p>
+          </a>
+        </div>
+        <div>
+          <a href="./fav.html">
+            <p>Favourites</p>
+          </a>
+        </div>
+  
+        <div class="dropdown"> 
+          <a href=""><p>Books
+            <img src="./images/drop1.png" height="20" width="10" alt="">
+  
+          </p>
+          </a>
+          <div class="dropContent">
+  
+            <a href="">
+              <p>
+              Add/Borrow Books</p></a>
+            
+            <a href="./addlist.html">
+              <p>
+              Available Books
+            </p></a>
+            <a href="./return book.html">
+              <p>
+              Return Books
+            </p>
+            </a>
+            <a href="./search2.html">
+              <p>
+              Search Books
+            </p></a>
+          </div>
+        </div>
+  
+  
+        <div>
+          <a href="./gallery.html">
+            <p>Gallery</p>
+          </a>
+        </div>
+        <div>
+          <a href="./contact.html">
+            <p>Contact Us</p>
+          </a>
+        </div>
+  
+        <div >
+          <a  href="./register.html">
+            <p >Register</p>
+          </a>
+        </div>
+  
+        <div >
+          <a  href="./login.html">
+            <p >LogIn</p>
+          </a>
+        </div>
+  
+        </div>
+  
+  
+  
+    </nav>
+  
+    <div class="divider1"></div>
+    
+    
+    <div class="main">
+
+
+        <div class="loginPage">
+            <h1>Register</h1>
+
+            <image src='./user.png' height="200" width="200" />
+            <div style="margin-top: 50px;">
+
+            <form class="fields" name="loginForm"  method="POST">
+
+                <div class="email">
+
+                <b>    <label id="email1" for="email">Email</label>
+                </b>
+                <input name="email" id="email" type="email">
+            </div>
+
+            <div class="password">
+                <b>
+                <label id="password1" for="password">Password</label>
+            </b>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <div class="rpassword">
+            <b>
+            <label id="rpassword1" for="rpassword">Repeat Password</label>
+        </b>
+        <input type="password" name="rpassword" id="rpassword">
+    </div>
+       <a href="./index.html" style="text-decoration: none;">
+        <h4 style="text-decoration: none;height: 20;width: 100;transform: translateX(450px);background-color: blue;
+        border-radius: 25px;padding-top: 15px;color: white;padding-bottom: 20px;">Sign Up</h4>
+      </a>
+
+    </form>
+
+
+            
+        </div>
+
+
+
+        </div>
+
+        
+
+
+
+
+    </div>
+
+
+
+
+
+    <script>
+
+
+function validateForm() {
+  var email = document.forms["loginForm"]["email"].value;
+  var password = document.forms["loginForm"]["password"].value;
+  if (email == "" || password=="") {
+    alert("Fields must be filled.");
+    
+  }
+
+  else if(password.length<=5){
+      alert("Password Length must be greater than 5. Please Check Your Password!",);
+  }
+
+  
+}
+
+    </script>
+
+</body>
+</html>

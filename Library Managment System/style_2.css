@@ -1,0 +1,38 @@
+*{
+   
+    box-sizing: border-box;
+}
+body{
+    background-image: url("gettyimages-84588607-1024x1024.jpg");
+    font-family: "Trebuchet MS", Helvetica,sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 20px auto;
+}
+h1{
+    font-family: Tahoma,Geneva, sans-serif;
+    text-transform: uppercase;
+    border-left: 5px solid grey;
+    margin: 10px;
+}
+.books{ 
+    width: 48%;
+    float: left;
+    background:grey;
+    margin: 5px;
+    padding: 10px;
+}
+.icon{
+    width: 15%;
+    float: left;
+    line-height: 100px
+}
+button{
+    background: #338033;
+    border-radius: 7px;
+    padding: 6px 6px;
+    color: #ccc;
+    float: right;
+    cursor: pointer;
+}

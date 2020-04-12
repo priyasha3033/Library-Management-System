@@ -1,0 +1,34 @@
+.mainGallery{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.row img{
+    opacity: 0.4;
+    transition: 0.5s;
+    height: 200px;
+    width: 300px;
+    margin-right: 50px;
+}
+
+.row img:hover{
+
+    transform: scale(1.25);
+    opacity: 1;
+}
+
+#galleryBody{
+background: linear-gradient(to bottom, #141e30, #243b55); 
+}
+
+h1{
+    color: azure;
+}

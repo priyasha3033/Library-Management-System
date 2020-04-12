@@ -1,0 +1,165 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="nav.css"> -->
+<link rel="stylesheet" href="./bootstrap.css">
+<link rel="stylesheet" href="./bootstrap-theme.css">
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+
+    
+
+
+
+
+    <nav>
+        <div class="mainName">
+          <p>Library Management System</p>
+        </div>
+  
+        <div class="navContent">
+          <div>
+          <a href="./index.html">
+            <p>Home</p>
+          </a>
+        </div>
+       
+  
+  
+  
+        <div>
+          <a href="./gallery.html">
+            <p>Gallery</p>
+          </a>
+        </div>
+        <div>
+          <a href="./contact.html">
+            <p>Contact Us</p>
+          </a>
+        </div>
+  
+        <div >
+          <a  href="./register.html">
+            <p >Register</p>
+          </a>
+        </div>
+  
+        <div >
+          <a  href="./login.html">
+            <p >LogIn</p>
+          </a>
+        </div>
+  
+        </div>
+  
+  
+  
+    </nav>
+  
+  
+<div class="divider1"></div>
+
+
+
+    <div class="main">
+
+
+        <div class="loginPage">
+            <h1>Login</h1>
+
+            <image src='./user.png' height="200" width="200" />
+            <div style="margin-top: 50px;">
+
+            <form onsubmit="validateForm()" class="fields" name="loginForm"  method="POST" > 
+
+                <div class="form-group">
+
+                <b>    <label for="email">Email</label>
+                </b>
+                <input class="form-control" name="email" id="email" type="email">
+            </div>
+
+            <div class="form-group">
+                <b>
+                <label for="password">Password</label>
+            </b>
+            <input class="form-control" type="password" name="password" id="password">
+        </div>
+        <a type="submit" class="btn btn-primary" href="./index.html" style="text-decoration: none;">
+          <h4 style="color:white" >Log In</h4>
+        </a>    
+  
+
+   </form>
+
+
+            
+        </div>
+
+
+
+        </div>
+
+        
+
+
+
+
+    </div>
+
+
+
+
+    <script>
+
+
+      function validateForm() {
+         
+        var email = document.forms["loginForm"]["email"].value;
+        var password = document.forms["loginForm"]["password"].value;
+        if (email == "" || password=="") {
+          alert("Fields must be filled.");
+          
+        }
+      
+        else if(password.length<=5){
+            alert("Password Length must be greater than 5. Please Check Your Password!");
+        }
+    
+     
+      
+        
+      }
+          </script>
+      
+    
+    
+    
+
+
+
+</body>
+</html>

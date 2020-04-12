@@ -1,0 +1,180 @@
+body{
+    background: linear-gradient(to right, #EF629F, #EECDA3); 
+    
+}
+
+.main{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color:white;
+    margin-top: 40px;
+
+}
+
+
+.loginPage{
+    /* margin:50px; */
+    /* border: 2px ; */
+    padding-top: 20px;
+    box-shadow: 2px 2px 5px 2px #888888;
+    /* width: 600px;
+    height: 600px;
+    padding: 20px; */
+    padding-bottom: 40px;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 0 10px 0;
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+}
+
+#email1{
+    margin-right: 58px;
+}
+
+#password1{
+    margin-right: 27px;
+}
+
+
+image{
+    height: 100px;
+    width: 100px;
+}
+
+#logIn{
+    border: none;
+    height: 70px;
+    width: 100px;
+    border-radius: 25px;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(to right, #283E51, #4B79A1); 
+    margin-left: 420px;
+    margin-top: 20px;
+
+}
+
+
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: black;
+  
+  }
+  .navContent{
+    margin-right: 50px;
+    transform: translateY(7px);
+    display: flex;
+    flex-direction: row;
+  }
+  .navContent a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    margin-right: 120px;
+    height: 60px;
+    text-align: center;
+    padding: 0;
+    color: white;
+  }
+  
+  .navContent div:hover{
+      background-color: rgb(255, 255, 255);
+      color: black;
+  
+    
+  }
+  
+  
+  .navContent div:hover a{
+    color: black;
+  
+  
+  }
+  
+  .mainName p{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+    margin-right: 30px;
+    color: white;
+  }
+  
+
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transform: translateY(-5px);
+  }
+  
+  .dropdown img{
+    transform: translateY(5px);
+  }
+  
+  .dropContent{
+    display: none;
+    position: absolute;
+    background-color: white;
+   
+    width: 200px; 
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+  
+  }
+  
+  .dropContent a{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 20px;
+    text-align: left;
+    width: 65%;
+    padding-right: 50px;
+    text-align: left;
+    
+  }
+  
+  
+  .dropdown:hover .dropContent{
+    display: block;
+  }
+  
+  .dropContent a:hover{
+    background-color: rgb(0, 0, 0);
+    
+  }
+  
+  .dropContent a:hover p{
+    color: white;
+  
+  }
+  .divider1 {
+    background-color:white ;
+    height:5px;
+    padding-bottom: 10px;
+    /* margin-top: 7px; */
+   
+   }
